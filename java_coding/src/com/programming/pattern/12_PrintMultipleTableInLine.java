@@ -1,0 +1,39 @@
+package com.programming.pattern;
+
+import java.util.Scanner;
+
+class PrintMultipleTableInLine {
+   public static void main(String[] args) {
+
+       System.out.println("Welcome to table printing  program");
+       Scanner sc = new Scanner(System.in);
+       System.out.print("Enter the number of block you want print INLINE: ");
+       int block = sc.nextInt();
+       printBlock(block);
+   }
+
+   public static void printBlock(int numBlock){
+       Scanner sc = new Scanner(System.in);
+       System.out.print("Enter the row count of table you want: ");
+       int row = sc.nextInt();
+       System.out.print("Enter the column count of table you want: ");
+       int column = sc.nextInt();
+
+           for (int j=1;j<=numBlock;j++) {
+               printTable(row, column);
+               System.out.println(" "); //print space after table
+           }
+
+
+
+
+   }
+    public static void printTable(int row, int column){
+        for (int i=1;i<=row; i++){
+            for (int j=1;j<=column;j++){
+                System.out.print(" * ");
+            }
+            System.out.println();
+        }
+    }
+}
