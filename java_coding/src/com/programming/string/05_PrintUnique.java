@@ -4,7 +4,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class PrintUnique {
+ class PrintUnique {
     public static void main(String[] args) {
         PrintUnique.PrintUniqueCharacter();
 

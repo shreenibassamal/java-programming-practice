@@ -1,6 +1,6 @@
 package com.programming.string;
 import java.util.*;
-public class RemoveDuplicate {
+ class RemoveDuplicate {
     public static void main(String[] args) {
         RemoveDuplicate.removeDuplicateFromString();
     }

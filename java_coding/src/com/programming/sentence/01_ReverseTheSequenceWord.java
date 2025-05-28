@@ -2,7 +2,7 @@ package com.programming.sentence;
 
 import java.util.Scanner;
 
-public class ReverseTheSequenceWord {
+ class ReverseTheSequenceWord {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter anything to reverse the word only: ");
