@@ -1,10 +1,8 @@
 package com.programming.string;
 
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.Scanner;
+import java.util.*;
 
-public class OccurenceOfCharacter {
+ class OccurenceOfCharacter {
     public static void main(String[] args) {
         OccurenceOfCharacter.countOccurence();
     }

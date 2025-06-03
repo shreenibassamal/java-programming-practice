@@ -10,16 +10,15 @@ class Panagram {
    System.out.println("Welcome to Reverse word in a sentence program ");
    System.out.print("Enter any sentence with randomly: ");
    String str = sc.nextLine();
-   str.toLowerCase(;
-
-   System.out.println(str);
+   String lstr = str.toLowerCase();
+   System.out.println(lstr);
    LinkedHashSet linkedHashSet = new LinkedHashSet();
-
    for (int i = 0; i < str.length(); i++) {
-    char  = str.charAt(i);
-
-    if (Character.isAlphabetic(str.charAt(i))) {
-     linkedHashSet.add(str.charAt(i));
+    char  s = lstr.charAt(i);
+    if (Character.isAlphabetic(lstr.charAt(i))) {
+     if (Character.isAlphabetic(s)){
+      linkedHashSet.add(lstr.charAt(i));
+     }
     }
    }
    if (linkedHashSet.size() == 26) {

@@ -2,7 +2,7 @@ package com.programming.string;
 
 import java.util.Scanner;
 
-public class ReverseString {
+ class ReverseString {
     public static void main(String[] args) {
         ReverseString.reverseString();
 

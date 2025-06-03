@@ -2,7 +2,7 @@ package com.programming.string;
 
 import java.util.*;
 
-public class AllPossibleSubstring {
+ class AllPossibleSubstring {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter any String to find all possible Substring: ");

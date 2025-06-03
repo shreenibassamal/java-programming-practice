@@ -1,10 +1,11 @@
 package com.programming.string;
 
-import java.util.LinkedHashMap;
-import java.util.Map;
-import java.util.Scanner;
+//import java.util.LinkedHashMap;
+//import java.util.Map;
+//import java.util.Scanner;
+import java.util.*;
 
-public class PrintDuplicate {
+ class PrintDuplicate {
     public static void main(String[] args) {
         PrintDuplicate.printDuplicateCharacter();
 

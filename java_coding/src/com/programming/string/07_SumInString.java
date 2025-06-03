@@ -2,7 +2,7 @@ package com.programming.string;
 
 import java.util.Scanner;
 
-public class SumInString {
+ class SumInString {
     public static void main(String[] args) {
         SumInString.sumOfNumberInString();
 

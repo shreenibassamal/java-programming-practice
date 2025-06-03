@@ -2,7 +2,7 @@ package com.programming.string;
 
 import java.util.*;
 
-public class Anagrams {
+ class Anagrams {
     public static void main(String[] args) {
         Anagrams.isTwoStringAnagrams();
     }
