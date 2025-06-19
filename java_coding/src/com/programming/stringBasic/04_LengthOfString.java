@@ -10,8 +10,5 @@ class LengthOfString {
          String str =sc.nextLine();
          System.out.println("Entered String is : "+str);
          System.out.println("String in lowerCase is : "+str.toLowerCase());
-
-
-
      }
 }
